@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.6.2">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Piyush Pande">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="AI Software Engineer">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://ppiyush28.github.io/categories/information-security/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#3f51b5">
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css" integrity="sha256-+N4/V/SbAFiW1MPBCXnfnP9QSN3+Keu+NlB+0ev/YKQ=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/styles/github.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=B612+Mono:400,700%7COrbitron:400,700%7CSpace+Mono:400,700%7CLato%7CMontserrat%7CInconsolata%7CAnonymous+Pro&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-153509490-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           document.location = url;
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target);  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-153509490-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  <link rel="alternate" href="/categories/information-security/index.xml" type="application/rss+xml" title="Piyush Pande">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/img/piyush.jpg">
+  <link rel="apple-touch-icon" type="image/png" href="/img/piyush.jpg">
+
+  <link rel="canonical" href="https://ppiyush28.github.io/categories/information-security/">
+
+  
+  
+  
+  
+    
+  
+  
+  <meta property="twitter:card" content="summary_large_image">
+  <meta property="twitter:image" content="https://ppiyush28.github.io/img/Shreyansh.jpg">
+  
+  <meta property="twitter:site" content="@shreyansh_26">
+  <meta property="twitter:creator" content="@shreyansh_26">
+  
+  <meta property="og:site_name" content="Piyush Pande">
+  <meta property="og:url" content="https://ppiyush28.github.io/categories/information-security/">
+  <meta property="og:title" content="Information Security | Piyush Pande">
+  <meta property="og:description" content="AI Software Engineer"><meta property="og:image" content="https://ppiyush28.github.io/img/Shreyansh.jpg">
+  <meta property="twitter:image" content="https://ppiyush28.github.io/img/Shreyansh.jpg"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2020-06-01T12:32:46&#43;05:30">
+  
+
+  
+
+
+
+
+  
+
+
+  
+
+<style>
+
+    @font-face {
+        font-family: monaco123;
+        font-weight: 100%;
+        font-style: normal;
+        src: url("/fonts/MONACO.TTF");
+    } 
+
+    code {
+        font-family: monaco123;
+        font-size: 100%;
+    }
+
+</style>
+
+<script data-ad-client="ca-pub-8708413956078710" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+
+
+
+  <title>Information Security | Piyush Pande</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#TableOfContents" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    
+    
+      <a class="navbar-brand" href="/">Piyush Pande</a>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#about"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/post/"><span>Posts</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#projects"><span>Projects</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#publications"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/Shreyansh_Resume.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item">
+        <a class="nav-link js-dark-toggle" href="#"><i class="fas fa-moon" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+  
+  
+    
+  
+<div class="universal-wrapper pt-3">
+  <h1>Information Security</h1>
+
+  
+
+  
+</div>
+
+
+
+<div class="universal-wrapper">
+  
+
+  
+  
+  <div>
+    <h2><a href="/post/2020-06-01_androids_encryption-pwn2win-2020/">Androids Encryption (Crypto) - Pwn2Win CTF 2020</a></h2>
+    <div class="article-style">
+      
+      crypto 115 - 108 solves  We intercept an algorithm that is used among Androids. There are many hidden variables. Is it possible to recover the message?
+  Author: andre_smaira
+  Server: nc encryption.pwn2.win 1337
+ Challenge link
+Challenge files
+On connecting to the challenge service, we are given two options -
+
+
+
+Also, in the server.py file, we see there are two functions, enc_plaintext and enc_flag.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2020-01-04_malwaretech-vm1-challenge/">MalwareTech&#39;s VM1 Reversing Challenge</a></h2>
+    <div class="article-style">
+      
+      Get the challenge from here
+ vm1.exe implements a simple 8-bit virtual machine (VM) to try and stop reverse engineers from retrieving the flag. The VM’s RAM contains the encrypted flag and some bytecode to decrypt it. Can you figure out how the VM works and write your own to decrypt the flag? A copy of the VM’s RAM has been provided in ram.bin (this data is identical to the ram content of the malware’s VM before execution and contains both the custom assembly code and encrypted flag).
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2019-12-30_hxp-36c3-ctf/">hxp 36C3 CTF Writeups</a></h2>
+    <div class="article-style">
+      
+      The hxp CTF happens every year along with the Chaos Communication Congress (a top security conference). This year was the 36th edition. This CTF is a major CTF, you know this when the CTF has a rating weight of 63.0 on CTFTime. Also, it is one of the qualifier events of DEFCON 2020 CTF.
+I was playing solo on this one and gave one day to this CTF. I managed to solve 2 problems in the main CTF and 2 in the Junior CTF.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2019-12-15_watevr-ctf-2019-writeups/">watevrCTF 2019 Writeups (Mainly Rev and Pwn)</a></h2>
+    <div class="article-style">
+      
+      This was a very fun CTF. Kudos to the organizers. I loved the problems, very interesting as well as challenging. I played this CTF with my team, Abs0lut3Pwn4g3. Our final rank was 54th.
+ Rev Challeneges Timeout File: timeout
+The binary is unstripped, so we can easily see the main function. The disassembly looks something like this.
+
+
+
+The functions, signal, alarm and delay all serve the same purpose, basically to either exit the program or delay its execution for a long time.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2019-12-02_tuctf-pwn-2019/">TUCTF 2019 - Pwn &amp; Rev Challenges</a></h2>
+    <div class="article-style">
+      
+      I couldn&rsquo;t give much time to the CTF because of some college work, but I gave a shot at the PWN challenges. The challenges became offline later but I still decided to work on the exploit scripts to make them work locally.
+ Pwn Challenges thefirst - 379 pts We can see in the image below that gets is being used to take the input. Hence it can be exploited for buffer overflow.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/privacy-ml/">Privacy-preserving Deep Learning for Medical Image Classification</a></h2>
+    <div class="article-style">
+      
+      Perform medical image classification in a secure and privacy-preserving manner using Secure Multiparty Computation and Differential Privacy
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2019-11-19_ritsec-ctf-2019/">RITSEC CTF 2019</a></h2>
+    <div class="article-style">
+      
+      A bit late for writeups, but still here are the solutions to the challenges I solved during the CTF. The CTF was from 15 Nov. 2019, 22:30 IST — Mon, 18 Nov. 2019, 10:30 IST. It was a decent CTF with quality challenges, from both beginner to advanced level.
+Update: The scripts to solve and the flags are present in this repo.
+I&rsquo;ll do the writeups category-wise -
+ Crypto  pre-legend — 100 pts
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/post/2019-08-25_codefest19-ctf-writeups/">Codefest’19 CTF Writeups</a></h2>
+    <div class="article-style">
+      
+      The Capture the Flag event for Codefest’19 was hosted from 8 pm, 23rd August 2019 to 12 noon, 24th August 2019 on Hackerrank.
+The contest link can be found here. There were a total of 1532 registrations and 518 people who were successful in solving atleast one challenge.
+So, onto the writeups.
+Welcome to Codefest 19! (Intro Challenge — 100pts) This was the introductory challenge. I had tried to make it a bit difficult than the normal introductory challenges, but I felt that it proved to be a bit difficult for the beginners.
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/nids/">Network Intrusion Detection in an Adversarial setting</a></h2>
+    <div class="article-style">
+      
+      A study on fooling Machine Learning/Deep Learning based Network Intrusion Detection systems to prevent them from detecting intrusions
+      
+    </div>
+  </div>
+  
+  <div>
+    <h2><a href="/project/linux-malware/">Linux Malware detection using Machine Learning</a></h2>
+    <div class="article-style">
+      
+      Implemented various papers on Linux Malware detection, where I analysed the structure of ELF files to determine whether they were malicious or benign. Approaches included the analysis of -
+ Symbol Table Opcode frequency ELF file metadata  
+      
+    </div>
+  </div>
+  
+
+  
+<nav>
+  <ul class="pagination justify-content-center">
+    
+    
+    <li class="page-item"><a class="page-link" href="/categories/information-security/page/2/">&raquo;</a></li>
+    
+  </ul>
+</nav>
+
+
+</div>
+
+      
+
+    
+    
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/highlight.min.js" integrity="sha256-1zu+3BnLYV9LdiY85uXMzii3bdrkelyp37e0ZyTAQh0=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/r.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/python.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/cpp.min.js"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.15.10/languages/js.min.js"></script>
+        
+      
+
+      
+      
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://shreyansh26-netlify-com.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.bcfae8267aba63cc55af53a503896bd9.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    © Piyush Pande 2022 &middot; 
+
+    Powered by 
+    
+    <a href="https://gohugo.io" target="_blank" rel="noopener">Hugo</a>.
+
+    
+    <span class="float-right" aria-hidden="true">
+      <a href="#" class="back-to-top">
+        <span class="button_icon">
+          <i class="fas fa-chevron-up fa-2x"></i>
+        </span>
+      </a>
+    </span>
+    
+  </p>
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
